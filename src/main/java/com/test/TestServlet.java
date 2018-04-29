@@ -36,7 +36,7 @@ public class TestServlet extends HttpServlet {
             out.println("<title>DB Servlet</title>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>EMPLOYEES</h1>");
+            out.println("<h1>PEOPLE</h1>");
 
 
             while (resultSet.next()) {
